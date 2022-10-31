@@ -137,6 +137,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
+.uncompleted-tasks__item_editMode input[type=text] {
+    display: inline-block;
+    width: 224px;
+}
+
+.uncompleted-tasks__item_editMode label {
+    display: none;
+}
+
 ul li input[type=text] {
     display: none;
 }
