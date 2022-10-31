@@ -4,41 +4,41 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.logo {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.logo img {
     width: 100%;
 }
-.aaa .more_inf {
+.logo .logo__details {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.logo { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.add-task__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.add-task {
     display: flex;
 }
-ul {
+.uncompleted-tasks {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+.uncompleted-tasks, .completed-title {
     list-style:none;
 }
 input,button{
